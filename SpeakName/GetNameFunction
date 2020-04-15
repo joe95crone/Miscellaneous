@@ -1,0 +1,48 @@
+SpeakName := Module[{NameList, endname, a}, 
+     SetDirectory[NotebookDirectory[]]; NameList = 
+       ReadList["ListOfNames.txt", String]; endname = Length[NameList]; 
+      a = RandomInteger[{1, endname}]; Speak[NameList[[a]]]; ]
+ 
+NameList = {"General Leftright", "Karen Manslime", "Terrence Probe", 
+     "Jerry Sixpence", "Horatio Nigel Dog", "Billy Two-Nips", 
+     "Butch Wimpchest"}
+ 
+endname = 7
+ 
+a = 4
+SpeakName := Module[{NameList, endname, a}, 
+     SetDirectory[NotebookDirectory[]]; NameList = 
+       ReadList["ListOfNames.txt", String]; endname = Length[NameList]; 
+      a = RandomInteger[{1, endname}]; Speak[NameList[[a]]]; ]
+ 
+NameList = {"General Leftright", "Karen Manslime", "Terrence Probe", 
+     "Jerry Sixpence", "Horatio Nigel Dog", "Billy Two-Nips", 
+     "Butch Wimpchest"}
+ 
+endname = 7
+ 
+a = 6
+SpeakName := Module[{NameList, endname, a}, 
+     SetDirectory[NotebookDirectory[]]; NameList = 
+       ReadList["ListOfNames.txt", String]; endname = Length[NameList]; 
+      a = RandomInteger[{1, endname}]; Speak[NameList[[a]]]; ]
+ 
+NameList = {"General Leftright", "Karen Manslime", "Terrence Probe", 
+     "Jerry Sixpence", "Horatio Nigel Dog", "Billy Two-Nips", 
+     "Butch Wimpchest"}
+ 
+endname = 7
+ 
+a = 6
+SpeakName := Module[{NameList, endname, a}, 
+     SetDirectory[NotebookDirectory[]]; NameList = 
+       ReadList["ListOfNames.txt", String]; endname = Length[NameList]; 
+      a = RandomInteger[{1, endname}]; Speak[NameList[[a]]]; ]
+ 
+NameList = {"General Leftright", "Karen Manslime", "Terrence Probe", 
+     "Jerry Sixpence", "Horatio Nigel Dog", "Billy Two-Nips", 
+     "Butch Wimpchest"}
+ 
+endname = 7
+ 
+a = 6
